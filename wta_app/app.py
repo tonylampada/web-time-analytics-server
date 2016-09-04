@@ -11,9 +11,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 # Import Models
-from user.models import UserToken
-from host.models import HostName
-from time_spent.models import TimeSpent
 
 
 @app.route('/')

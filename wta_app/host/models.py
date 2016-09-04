@@ -1,4 +1,4 @@
-from app import db
+from wta_app.app import db
 
 
 class HostName(db.Model):

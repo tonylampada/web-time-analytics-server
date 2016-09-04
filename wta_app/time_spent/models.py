@@ -7,7 +7,7 @@ time was spent.
 
 """
 
-from app import db
+from wta_app.app import db
 
 
 class TimeSpent(db.Model):
