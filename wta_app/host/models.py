@@ -1,4 +1,6 @@
-from wta_app.app import db
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
 
 
 class HostName(db.Model):
